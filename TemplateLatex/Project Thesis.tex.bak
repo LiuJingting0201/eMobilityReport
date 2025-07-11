@@ -1,0 +1,144 @@
+\documentclass[journal, doublecolumn]{IEEEtran}
+\usepackage[table]{xcolor}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows, patterns}
+\usepackage[font=footnotesize, labelsep=period]{caption}
+\usepackage[caption=false,font=footnotesize]{subfig}
+\usepackage[T1]{fontenc} % optional
+\usepackage[uprightGreek]{newtxmath}
+\usepackage{graphicx}
+\usepackage{supertabular}
+\usepackage{cite}
+\usepackage[betterproportions, straightvoltages]{circuitikz}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage{changepage}
+\usepackage{array}
+\usepackage{blox}
+
+\colorlet{lightO}{lightgray!20!white}
+\colorlet{lightB}{blue!20!white}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\graphicspath{{Figures/}} %Setting the graphicspath
+
+\begin{document}
+\ctikzset{bipoles/thickness=1}
+
+\title{Project Thesis}
+
+\author{Author 1, Author 2, Author 3, Author 4}% <-this % stops a space
+
+\markboth{01TVEQW - Electrical Technologies for eMobility}%
+{Surname \MakeLowercase{\textit{et al.}}: }
+
+\maketitle
+
+%Here you add the sections of the report
+\input{Introduction}
+
+\input{Motor_model}
+\input{Inverter_sizing}
+\input{FOC_design}
+\input{Simulation_results}
+\input{Conclusions}
+
+%Bibliography
+\bibliography{References/library_mypapers}{}
+\bibliographystyle{ieeetr}
+
+%\end{document}
+
+
+ 
+\newpage
+
+\section{Examples}
+From there on, we report some examples of figures and equations. It should be removed from the final project. See https://en.wikibooks.org/wiki/LaTeX/Mathematics for more info.
+
+\subsection{EXAMPLE EQUATIONS}
+
+Cite the equations by using \eqref{eq:eq1}.
+
+\begin{equation}
+\left\{
+	\begin{array}{ccc}
+		v_{d} &=& R_{s} i_{d} + \dfrac{\mathrm{d}\uplambda_{d}}{\mathrm{d}t} -\upomega \uplambda_q \\[15pt]
+		v_{q} &=& R_{s} i_{q} + \dfrac{\mathrm{d}\uplambda_{q}}{\mathrm{d}t} +\upomega \uplambda_d \\
+	\end{array}
+\right.
+	\label{eq:eq1}
+\end{equation}
+
+\begin{equation}
+v_{q}=R_s\cdot i_q
+\label {Equ:2}
+\end{equation}
+
+
+\begin{equation}
+A = 
+		\begin{bmatrix}
+			A_{1} & 0 & \dotsi & 0\\
+			0 & A_{2} & \dotsi & 0\\
+			\vdots & \vdots & \ddots & \vdots\\
+			0 & 0 & \dotsi & A_{n}
+		\end{bmatrix}
+\end{equation}
+
+Greek letters. I suggest the package upgreek to write upright Greek letters. For example $\upomega$ is from upgreek, while $\omega$ is the standard letter. Capital Greek letters are $\upOmega$. Remember that the vector quantities must be bold.
+
+\subsection{EXAMPLE LISTS}
+\begin{enumerate}
+	\item OBJ 1
+	\item OBJ 2
+	\item Method 3
+\end{enumerate}
+
+\begin{itemize}
+	\item OBJ 1
+	\item OBJ 2
+\end{itemize}
+
+\subsection{EXAMPLE FIGURES}
+EXAMPLE FIGURES. Figures can be in png, pdf, eps. svg and emf are not supported.
+Figure parameters: In square brackets the positioning attributes t=top, b=bottom, h=here, p=newPage, !=force positioning.
+
+Figure references: As it can be seen in Fig.~\ref{fig:SingleFigure}.
+
+\begin{figure}[!b]
+	\centering
+	\includegraphics[width=\columnwidth]{ExFig.pdf}
+	\captionsetup{justification=justified}
+	\caption{Caption line 1.}
+	\label{fig:SingleFigure}
+\end{figure}
+
+\begin{figure*}[t]
+	\centering
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{ExFig.pdf}}
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{ExFig.pdf}}
+	\captionsetup{justification=justified}
+	\caption{This is a subfloat with horizontal alignment.}
+	\label{fig:adjacentFigs}
+	\vspace{-5mm}			%This reduces the vertical space after a figure.
+\end{figure*}
+
+
+\begin{figure}[t] 
+	\centering
+	\subfloat[]{\includegraphics[width=\columnwidth]{ExFig.pdf}}
+	\vfil
+	\subfloat[]{\includegraphics[width=\columnwidth]{ExFig.pdf}}
+	\captionsetup{justification=justified}
+	\caption{Caption line 1.}
+	\label{fig:ColumnFigs}
+	\vspace{-4.5mm}
+\end{figure}
+
+\end{document}

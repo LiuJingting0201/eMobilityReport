@@ -1,0 +1,285 @@
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
+
+
+@Article{TIM2017,
+  Title                    = {Improvement of Agilent 3458A Performances in Wideband Complex Transfer Function Measurement},
+  Author                   = {G. Crotti and D. Giordano and M. Luiso and P. Pescetto},
+  Journal                  = {IEEE Transactions on Instrumentation and Measurement},
+  Year                     = {2017},
+
+  Month                    = {June},
+  Number                   = {6},
+  Pages                    = {1108-1116},
+  Volume                   = {66},
+
+  Abstract                 = {Digital multimeters (DMMs) Agilent 3458A are valuable devices in accurate characterization of voltage transducers. Five selectable ranges, from 100 mV to 1 kV, high input impedance and accuracy make this device the state of the art. The paper focuses on the correction of the multimeter frequency response when used in Direct Current digitising mode (DCV), to allow post-correction of the errors introduced by the digitizers. To this end, two different approaches for the identification of the multimeter input complex filter function up to about 100 kHz are proposed. They are, respectively, based on the identification of the complex filter transfer function considering the input stage of the DMM as a black box and on the estimation of the parameter of the DMM input stage. The two methods are validated in a test case and equivalence of the results obtained is found. As a further verification, a deep investigation of DCV and direct sampling mode is performed when the zero level trigger mode is set.},
+  Doi                      = {10.1109/TIM.2017.2661658},
+  ISSN                     = {0018-9456},
+  Keywords                 = {digital multimeters;error correction;frequency response;measurement errors;transfer functions;voltage measurement;Agilent 3458A performance;wideband complex transfer function measurement;digital multimeters;voltage transducer;multimeter frequency response;direct current digitising mode;post error correction;complex filter transfer function;direct sampling mode;zero level trigger mode;voltage 100 mV to 1 kV;Frequency measurement;Cutoff frequency;Voltage measurement;Phase measurement;Transfer functions;Calibration;Impedance;Calibration;measurement;power quality;power system measurement;transducer;voltage measurement}
+}
+
+@InProceedings{CPEM2016,
+  Title                    = {Improvement of Agilent 3458A performances in wideband complex transfer function measurement},
+  Author                   = {D. Giordano and P. Pescetto and G. Crotti and M. Luiso},
+  Booktitle                = {2016 Conference on Precision Electromagnetic Measurements (CPEM 2016)},
+  Year                     = {2016},
+  Month                    = {July},
+  Pages                    = {1-2},
+
+  Abstract                 = {The phase and ratio errors of transducers for distribution electrical grids can be measured, in a wide frequency range, by a synchronized couple of digitizers Agilent 3458A working in DCV mode. The high metrological performances of the digitizers is degraded by the input low pass filter cut-off frequency, which depends on the selected range. This paper proposes a technique to identify and model, for each range, the filter complex function up to several tens of kilohertz. First tests show its potentiality in reducing the errors introduced by the digitizers, when set on different ranges, in frequency calibration of voltage/current transducers.},
+  Doi                      = {10.1109/CPEM.2016.7540648},
+  ISSN                     = {2160-0171},
+  Keywords                 = {calibration;electric current measurement;frequency measurement;low-pass filters;transducers;transfer functions;voltage measurement;wideband complex transfer function measurement;distribution electrical grid;phase measurement;synchronization;digitizers Agilent 3458A performance;DCV mode;input low pass filter;frequency calibration;voltage-current transducer;Frequency measurement;Transfer functions;Phase measurement;Measurement uncertainty;Transducers;Voltage measurement;Acoustic measurements;Measurement;measurement standards;measurement techniques;measurement uncertainty;precision measurements;uncertainty}
+}
+
+@Article{TIA2017a,
+  Title                    = {Sensorless Self-Commissioning of Synchronous Reluctance Motors at Standstill Without Rotor Locking},
+  Author                   = {M. Hinkkanen and P. Pescetto and E. Mölsä and S. E. Saarakkala and G. Pellegrino and R. Bojoi},
+  Journal                  = {IEEE Transactions on Industry Applications},
+  Year                     = {2017},
+
+  Month                    = {May},
+  Number                   = {3},
+  Pages                    = {2120-2129},
+  Volume                   = {53},
+
+  Abstract                 = {This paper proposes a standstill method for the identification of the magnetic model of synchronous reluctance motors (SyRMs). The saturation and cross-saturation effects are properly taken into account. The motor is fed by an inverter with a short sequence of bipolar voltage pulses that are first applied on the rotor dand q-axes separately and then simultaneously on both the axes. The stator flux linkages are computed by integrating the induced voltages. Using the current and flux samples, the parameters of an algebraic magnetic model are estimated by means of linear least squares. The proposed method is robust against errors in the stator resistance and inverter voltage, due to the high test voltages (of the order of the rated voltage). The fitted model matches very well with the reference saturation characteristics, measured using a constant-speed method, and enables extrapolation outside the sample range. The method was tested with a 2.2-kW SyRM, whose shaft was uncoupled from any mechanical load, which is the most demanding condition for this method. The proposed method can be used for automatic self-commissioning of sensorless SyRM drives at standstill.},
+  Doi                      = {10.1109/TIA.2016.2644624},
+  ISSN                     = {0093-9994},
+  Keywords                 = {extrapolation;invertors;least squares approximations;reluctance motor drives;rotors;stators;sensorless self-commissioning;synchronous reluctance motors;standstill method;magnetic model identification;cross-saturation effects;inverter;bipolar voltage pulses;rotor d-axes;rotor q-axes;stator flux linkages;algebraic magnetic model;linear least squares;stator resistance;inverter voltage;fitted model;reference saturation characteristics;constant-speed method;extrapolation;sensorless SyRM drives;Saturation magnetization;Stators;Mathematical model;Inductance;Current measurement;Magnetic separation;Couplings;Flux maps;identification;linear least squares (LLS);saturation characteristics}
+}
+
+@InProceedings{ICEM2016,
+  Title                    = {Sensorless self-commissioning of synchronous reluctance motors at standstill},
+  Author                   = {M. Hinkkanen and P. Pescetto and E. Mölsä and S. E. Saarakkala and G. Pellegrino and R. Bojoi},
+  Booktitle                = {2016 XXII International Conference on Electrical Machines (ICEM)},
+  Year                     = {2016},
+  Month                    = {Sept},
+  Pages                    = {1174-1180},
+
+  Abstract                 = {This paper proposes a standstill method for identification of the magnetic model of synchronous reluctance motors (SyRMs). The saturation and cross-saturation effects are properly taken into account. The motor is fed by an inverter with a short sequence of bipolar voltage pulses that are first applied on the rotor d- and q-axes separately and then simultaneously on both the axes. The stator flux linkages are computed by integrating the induced voltages. Using the current and flux samples, the parameters of an algebraic magnetic model are estimated by means of linear least squares. The proposed method is robust against the stator resistance variations and inverter nonlinearities due to the high test voltages (of the order of the rated voltage). The fitted model matches very well with the reference saturation characteristics, measured using a constant-speed method, and enables extrapolation outside the sample range. The method was tested with a 2.2-kW SyRM, whose shaft was uncoupled from any mechanical load, which is the most demanding condition for this method. The proposed method can be used for automatic self-commissioning of sensorless SyRM drives at standstill.},
+  Doi                      = {10.1109/ICELMACH.2016.7732673},
+  Keywords                 = {extrapolation;invertors;least squares approximations;reluctance motor drives;rotors;stators;sensorless SyRM drives;mechanical load;extrapolation;constant-speed method;reference saturation characteristics;inverter nonlinearities;stator resistance variations;linear least squares;algebraic magnetic model;stator flux linkages;rotor q-axes;rotor d-axes;bipolar voltage pulses;cross-saturation effects;standstill;synchronous reluctance motors;sensorless self-commissioning;power 2.2 kW;Rotors;Stators;Saturation magnetization;Current measurement;Resistance;Mathematical model;Torque;Flux maps;identification;linear least squares (LLS);saturation characteristics}
+}
+
+@Article{TIA2019,
+  Title                    = {Transient Overload Characteristics of PM-Assisted Synchronous Reluctance Machines, Including Sensorless Control Feasibility},
+  Author                   = {R. {Leuzzi} and P. {Cagnetta} and S. {Ferrari} and P. {Pescetto} and G. {Pellegrino} and F. {Cupertino}},
+  Journal                  = {IEEE Transactions on Industry Applications},
+  Year                     = {2019},
+  Number                   = {3},
+  Pages                    = {2637-2648},
+  Volume                   = {55}
+}
+
+@InProceedings{WEMDCD2017,
+  Title                    = {Analysis of overload and sensorless control capability of PM-assisted synchronous reluctance machines},
+  Author                   = {R. Leuzzi and P. Cagnetta and S. Ferrari and P. Pescetto and G. Pellegrino and F. Cupertino},
+  Booktitle                = {2017 IEEE Workshop on Electrical Machines Design, Control and Diagnosis (WEMDCD)},
+  Year                     = {2017},
+  Month                    = {April},
+  Pages                    = {172-178},
+
+  Abstract                 = {Synchronous reluctance machines are a valid alternative to induction motors for industrial applications requiring variable speed regulation. To mitigate the well-known downside of their lower power factor, permanent-magnet-assisted topologies are adopted. Both high-strength rare-earth magnets and low cost ferrite magnets can be used in such machines. Their design and optimization procedures have been discussed in related literature. This paper compares synchronous reluctance machines assisted with NdFeB and ferrite magnets, focusing on torque overload capability and feasibility of saliency-based position estimation algorithms. Three prototypes were realized and tested. They all have the stator of a commercial induction motor, and three custom synchronous reluctance rotors with same laminations: one has no magnets, the other two have NdFeB and ferrite magnets respectively, designed to give the same torque at rated current. Results from simulations and experiments are presented, focusing on torque and demagnetization limits in the over-current loading range. Moreover, the feasibility of saliency-based sensorless methods is investigated, both at high and low current loads. The results of the paper suggest that the ferrite-assisted solution is the candidate solution for replacing induction motors in variable speed applications.},
+  Doi                      = {10.1109/WEMDCD.2017.7947743},
+  Keywords                 = {angular velocity control;iron compounds;neodymium compounds;optimisation;permanent magnet machines;rare earth metals;reluctance machines;sensorless machine control;sensorless control capability;PM-assisted synchronous reluctance machines;induction motors;industrial applications;variable speed regulation;power factor;permanent-magnet-assisted topologies;high-strength rare-earth magnets;low cost ferrite magnets;design procedures;optimization procedures;torque overload capability;saliency-based position estimation algorithms;commercial induction motor;custom synchronous reluctance rotors;NdFeB;Rotors;Torque;Ferrites;Saturation magnetization;Magnetic flux;Permanent magnet motors;Magnetic anisotropy;demagnetization;high-frequency voltage injection;overload;permanent magnet motor;sensorless control;synchronous reluctance motor}
+}
+
+@Article{PELS2019,
+  Title                    = {Parameter Identification and Self-Commissioning in AC Motor Drives: A Technology Status Review},
+  Author                   = {S. A. {Odhano} and P. {Pescetto} and H. A. A. {Awan} and M. {Hinkkanen} and G. {Pellegrino} and R. {Bojoi}},
+  Journal                  = {IEEE Transactions on Power Electronics},
+  Year                     = {2019},
+  Number                   = {4},
+  Pages                    = {3603-3614},
+  Volume                   = {34}
+}
+
+@InProceedings{SLED2020,
+  Title                    = {Commissioning and Sensorless Control of High Power SyR Machine Prototypes},
+  Author                   = {P. {Pescetto} and E. {Armando} and G. {Pellegrino}},
+  Booktitle                = {2019 IEEE 10th International Symposium on Sensorless Control for Electrical Drives (SLED)},
+  Year                     = {2019},
+  Pages                    = {1-6}
+}
+
+@InProceedings{EVER2015,
+  Title                    = {Comparison of parallel connected medium voltage grid side VSCs for offshore wind turbines},
+  Author                   = {P. Pescetto and G. Bergna-Diaz and I. Zubimendi and E. Tedeschi},
+  Booktitle                = {2015 Tenth International Conference on Ecological Vehicles and Renewable Energies (EVER)},
+  Year                     = {2015},
+  Month                    = {March},
+  Pages                    = {1-8},
+
+  Abstract                 = {The goal of this paper is to compare different solutions for the parallelization of grid side voltage source converters operating in medium voltage for application in multi-megawatt (MW) offshore wind turbines. The study takes into account different alternatives in terms of both topology and modulation: in particular it considers whether the DC busses are common or separated, the output filters are isolated or coupled, and, in the latter case, the impact of the coupling coefficient value. The use of interleaving modulation technique is also analyzed. Systematic comparative analyses are reported with the goal of orienting trade off design choices for offshore converters.},
+  Doi                      = {10.1109/EVER.2015.7112991},
+  Keywords                 = {modulation;offshore installations;power convertors;power grids;wind turbines;parallel connected medium voltage grid side;VSC;voltage source converter;MW offshore wind turbine;multimegawatt offshore wind turbine;DC bus;interleaving modulation technique;Inductors;Couplings;Topology;Power conversion;Wind turbines;Inverters;inverter paralelization;grid side converter;output filter;interphase inductance;wind turbine}
+}
+
+@Article{TIA2020c,
+  Title                    = {Winding Thermal Modeling and Parameters Identification for Multithree Phase Machines Based on Short-Time Transient Tests},
+  Author                   = {P. {Pescetto} and S. {Ferrari} and G. {Pellegrino} and E. {Carpaneto} and A. {Boglietti}},
+  Journal                  = {IEEE Transactions on Industry Applications},
+  Year                     = {2020},
+  Number                   = {3},
+  Pages                    = {2472-2480},
+  Volume                   = {56}
+}
+
+@InProceedings{ECCE2018,
+  Title                    = {Short-Time Transient Thermal Model Identification of Multiple Three-Phase Machines},
+  Author                   = {P. Pescetto and S. Ferrari and G. Pellegrino and E. Carpaneto and Aldo Boglietti},
+  Booktitle                = {2018 IEEE Energy Conversion Congress and Exposition (ECCE)},
+  Year                     = {2018},
+  Month                    = {Oct},
+
+  Comment                  = {Provvisorio, non ancora uscito su IEEE explore}
+}
+
+@Article{TIA2020,
+  Title                    = {Determination of PM Flux Linkage Based on Minimum Saliency Tracking for PM-SyR Machines Without Rotor Movement},
+  Author                   = {P. {Pescetto} and G. {Pellegrino}},
+  Journal                  = {IEEE Transactions on Industry Applications},
+  Year                     = {2020},
+  Pages                    = {1-1}
+}
+
+@InProceedings{ECCE2020,
+  Title                    = {Standstill Determination of PM Flux Linkage Based on Minimum Saliency Tracking for PM-SyR Machines},
+  Author                   = {P. {Pescetto} and G. {Pellegrino}},
+  Booktitle                = {2019 IEEE Energy Conversion Congress and Exposition (ECCE)},
+  Year                     = {2019},
+  Pages                    = {4888-4894}
+}
+
+@Article{TIA2018,
+  Title                    = {Automatic Tuning for Sensorless Commissioning of Synchronous Reluctance Machines Augmented With High-Frequency Voltage Injection},
+  Author                   = {P. Pescetto and G. Pellegrino},
+  Journal                  = {IEEE Transactions on Industry Applications},
+  Year                     = {2018},
+
+  Month                    = {Sept},
+  Number                   = {5},
+  Pages                    = {4485-4493},
+  Volume                   = {54},
+
+  Abstract                 = {Sensorless control of synchronous reluctance motors (SyRMs) relies on the knowledge of the machine current-to-flux maps. Previous work demonstrated the feasibility of sensorless identification of the flux maps, performed by exciting the machine with square-wave voltage pulses at standstill, and without the need of rotor locking. The rotor position was initially estimated and then used throughout the identification, in open-loop fashion. In some cases, rotor oscillation and eventually position drift led to stop the identification before the programmed dq current domain was covered entirely. In this paper, the rotor position is closed-loop tracked during the motor commissioning to counteract the occurrence of rotor movement. The hysteresis-controlled excitation voltage is augmented with an high-frequency (HF) square-wave voltage component, and the position is tracked through demodulation of the current response to such HF component. The proposed approach is experimentally verified on a 2.2-kW SyRM prototype. The results show that the id, iqcommissioning domain is substantially extended, resulting in more accurate flux maps. Moreover, self-tuning of the method is addressed and possible causes of error are analyzed and commented.},
+  Doi                      = {10.1109/TIA.2018.2839600},
+  ISSN                     = {0093-9994},
+  Keywords                 = {closed loop systems;magnetic flux;position control;reluctance motors;rotors;sensorless machine control;sensorless control;synchronous reluctance motors;machine current-to-flux maps;rotor locking;rotor position;hysteresis-controlled excitation voltage;high-frequency square-wave voltage component;synchronous reluctance machines;SyRM prototype;Rotors;Torque;Magnetic hysteresis;Estimation;Reluctance motors;Transducers;Stators;Flux maps;high-frequency (HF) injection;magnetic model identification;magnetization curves;self-commissioning;synchronous reluctance motor (SyRM)}
+}
+
+@InProceedings{ECCE2017,
+  Title                    = {Sensorless commissioning of synchronous reluctance machines augmented with high frequency voltage injection},
+  Author                   = {P. Pescetto and G. Pellegrino},
+  Booktitle                = {2017 IEEE Energy Conversion Congress and Exposition (ECCE)},
+  Year                     = {2017},
+  Month                    = {Oct},
+  Pages                    = {1909-1916},
+
+  Abstract                 = {This paper deals with the self-commissioning of synchronous reluctance motors. Previous work has demonstrated that the motor flux maps can be accurately identified at standstill by exciting the machine with square-wave voltage pulses of large amplitude, of the same order of the machine nominal voltage. This was made without the need of rotor locking and without using position sensors. The knowledge of the d and q axes position was obtained by a preliminary sensorless commissioning and then used for directing the d and q voltage pulses accordingly, in open-loop fashion. At free shaft, the position tends to oscillate under such alternated excitation, introducing position error and thus inaccuracy. For high values of the torque current component iqthe rotor can even start spinning suddenly, thus stopping the identification. The loss of control impedes of identification of the flux maps above a certain limit, at least in the q direction. In the past, polynomial fitting was used to extrapolate the flux map in the missing parts of the dq current domain, with good results. In this paper, the rotor position is closed-loop estimated during the motor commissioning, so to counteract the occurrence of sudden spin and extend the explored current area in the q direction. An additional pulsating voltage, also of the square-wave type, is superimposed to the main excitation voltage, and the position is tracked through current demodulation. In this way, the area explored in the dq current plane is substantially extended, if compared to previous method. The proposed approach is verified through experimental results on one synchronous reluctance motor prototype.},
+  Doi                      = {10.1109/ECCE.2017.8096028},
+  Keywords                 = {closed loop systems;demodulation;machine vector control;magnetic flux;open loop systems;position control;reluctance motors;rotors;sensorless machine control;shafts;torque;square-wave type;main excitation voltage;current demodulation;dq current plane;synchronous reluctance motor prototype;closed-loop estimation;d axes position;d voltage pulses;additional pulsating voltage;explored current area;sudden spin;motor commissioning;rotor position;dq current domain;polynomial fitting;flux map;torque current component;position error;alternated excitation;free shaft;open-loop fashion;q voltage pulses;preliminary sensorless commissioning;q axes position;rotor locking;machine nominal voltage;square-wave voltage pulses;motor flux maps;synchronous reluctance motors;self-commissioning;high frequency voltage injection;synchronous reluctance machines;Rotors;Estimation;Tracking loops;Torque;Tuning;Bandwidth;Reluctance motors;Magnetic Model Identification;Self-Commissioning;Synchronous Reluctance Motor;Flux Maps;Magnetization Curves;HF injection}
+}
+
+@InProceedings{IEMDC2017,
+  Title                    = {Sensorless standstill commissioning of synchronous reluctance machines with automatic tuning},
+  Author                   = {P. Pescetto and G. Pellegrino},
+  Booktitle                = {2017 IEEE International Electric Machines and Drives Conference (IEMDC)},
+  Year                     = {2017},
+  Month                    = {May},
+  Pages                    = {1-8},
+
+  Abstract                 = {This paper deals with the sensorless self-commissioning of synchronous reluctance motors at standstill. Previous work demonstrated that the injection of high test voltage pulses can be successfully used to determine the flux linkage maps of the Synchronous Reluctance machine without position transducer and with no need of rotor locking. In this work, the tuning aspects of the above self-commissioning technique are analyzed for making it self-tuning. A method for detecting unwanted rotor movement during the test is introduced and used to assess the test's end and to maximize the i<sub>d</sub>, i<sub>q</sub> area of inspection. Furthermore, the paper analyzes a number of theoretical and practical implementation issues, first mathematically and then in experiments. The effects of possible error sources are evaluated, including imprecise estimation of the stator resistance and of the inverter voltage distortion, and iron loss. Experimental results are presented for three Synchronous Reluctance motor prototypes.},
+  Doi                      = {10.1109/IEMDC.2017.8002302},
+  Keywords                 = {invertors;reluctance motors;rotors;stators;automatic tuning;synchronous reluctance machine;sensorless standstill commissioning;sensorless self-commissioning;unwanted rotor movement detection;stator resistance;inverter voltage distortion;iron loss;synchronous reluctance motor prototype;high test voltage pulse injection;flux linkage maps;Resistance;Inverters;DC motors;Rotors;Iron;Stators;Magnetic flux;Magnetic Model Identification;Self-Commissioning;Synchronous Reluctance Motor;Flux Maps;Magnetization Curves}
+}
+
+@InProceedings{SLED2017,
+  Title                    = {Sensorless magnetic model and pm flux identification of synchronous drives at standstill},
+  Author                   = {P. Pescetto and G. Pellegrino},
+  Booktitle                = {2017 IEEE International Symposium on Sensorless Control for Electrical Drives (SLED)},
+  Year                     = {2017},
+  Month                    = {Sept},
+  Pages                    = {79-84},
+
+  Abstract                 = {This paper proposes a sensorless self-commissioning technique for PM-assisted synchronous reluctance motors. The identification of the machine's flux maps is performed at standstill without any position transducer and with no need of rotor locking. The machine is first excited with alternated high voltage pulses, injected in the estimated d and q directions of the rotor to determine its saturation curves. Then, direct current values are applied in a fixed stator direction so that the rotor aligns in specific positions giving information on the PM flux linkage. Experimental results are provided on a PM-assisted synchronous reluctance motor prototype, confirming the validity of the proposed method. The key original feature of the proposed work is the estimation of magnet flux linkage at standstill. For the motor under test, the magnet flux linkage was sensorless estimated at standstill with an error lower than 3%.},
+  Doi                      = {10.1109/SLED.2017.8078434},
+  ISSN                     = {2166-6733},
+  Keywords                 = {machine vector control;magnetic flux;permanent magnet motors;reluctance motors;rotors;sensorless machine control;stators;synchronous motor drives;PM flux identification;magnet flux linkage;PM-assisted synchronous reluctance motor prototype;PM flux linkage;rotor aligns;fixed stator direction;flux maps;PM-assisted synchronous reluctance motors;sensorless self-commissioning technique;synchronous drives;Rotors;Reluctance motors;Couplings;Torque;Magnetic flux;Saturation magnetization;Sensorless;self-commissioning;PM drives;PM flux estimation;PM-Synchronous Reluctance Machines}
+}
+
+@InProceedings{SLED2020b,
+  Title                    = {Novel Sensorless Control Algorithm for SyR Machines Based on Low Speed Active Flux},
+  Author                   = {P. {Pescetto} and A. {Yousefi-Talouki} and G. {Pellegrino}},
+  Booktitle                = {2019 IEEE 10th International Symposium on Sensorless Control for Electrical Drives (SLED)},
+  Year                     = {2019},
+  Pages                    = {1-6}
+}
+
+@Article{TIA2020b,
+  Title                    = {Sensorless Synchronous Reluctance Motor Drives: A Full-Speed Scheme using Finite-Control-Set MPC in a Projection Vector Framework},
+  Author                   = {A. {Varatharajan} and P. {Pescetto} and G. {Pellegrino}},
+  Journal                  = {IEEE Transactions on Industry Applications},
+  Year                     = {2020},
+  Pages                    = {1-1}
+}
+
+@InProceedings{ECCE2020b,
+  Title                    = {Sensorless Self-Commissioning of Synchronous Reluctance Machine with Rotor Self-Locking Mechanism},
+  Author                   = {A. {Varatharajan} and P. {Pescetto} and G. {Pellegrino}},
+  Booktitle                = {2019 IEEE Energy Conversion Congress and Exposition (ECCE)},
+  Year                     = {2019},
+  Pages                    = {812-817}
+}
+
+@InProceedings{SLED2018,
+  Title                    = {Injectionless Sensorless Control of Synchronous Reluctance Machine for Zero to Low Speeds Region},
+  Author                   = {A. Varatharajan and P. Pescetto and G. Pellegrino},
+  Booktitle                = {2018 IEEE 9th International Symposium on Sensorless Control for Electrical Drives (SLED)},
+  Year                     = {2018},
+  Month                    = {Sept},
+  Pages                    = {72-77},
+
+  Abstract                 = {An alternative to the high frequency injection approach for sensorless control at zero and low speed region is proposed for synchronous reluctance machines (SyR) using finite-control-set model predictive control (FCS-MPC). The saliency based position estimate aims to exploit the switching current ripple which is pronounced owing to the nature of MPC especially around zero and low speed region due to the minimal back-emf. A demerit of the high frequency injection techniques is the bandwidth hindrance of position observer by the demodulating low pass filter (LPF). In the proposed method, no such filters are required and consequently, high bandwidth is achieved. Guidelines for the calibration of observers are addressed. In addition, the effects of cross-saturation on position estimation is inherently considered. The experimental validation on a 1 kW SyR shows stable operation under torque and speed transients, and proves the feasibility of the proposed technique.},
+  Doi                      = {10.1109/SLED.2018.8486061},
+  ISSN                     = {2166-6733},
+  Keywords                 = {low-pass filters;machine control;position control;predictive control;reluctance machines;sensorless machine control;low speed region;high frequency injection techniques;position observer;high bandwidth;position estimation;speed transients;sensorless control;synchronous reluctance machine;low speeds region;high frequency injection approach;zero speed region;finite-control-set model predictive control;FCS-MPC;saliency based position estimate;switching current ripple;torque transients;power 1.0 kW;Observers;Sensorless control;Predictive control;Stators;Bandwidth;Sensorless control;synchronous reluctance machines;model predictive control}
+}
+
+@Article{TIA2017b,
+  Title                    = {Sensorless Direct Flux Vector Control of Synchronous Reluctance Motors Including Standstill, MTPA, and Flux Weakening},
+  Author                   = {A. Yousefi-Talouki and P. Pescetto and G. Pellegrino},
+  Journal                  = {IEEE Transactions on Industry Applications},
+  Year                     = {2017},
+
+  Month                    = {July},
+  Number                   = {4},
+  Pages                    = {3598-3608},
+  Volume                   = {53},
+
+  Abstract                 = {This paper proposes a sensorless direct flux vector control scheme for synchronous reluctance motor drives. Torque is controlled at constant switching frequency, via the closed loop regulation of the stator flux linkage vector and of the current component in quadrature with it, using the stator flux oriented reference frame. A hybrid flux and position observer combines back-electromotive force (EMF) integration with pulsating voltage injection around zero speed. Around zero speed, the position observer takes advantage of injected pulsating voltage. Instead of the commonly used current demodulation, the position error feedback is extracted here at the output of the observer's flux maps, thus resulting in immunity toward the cross-saturation position error. The maximum torque per ampere (MTPA) strategy is used. A detailed analysis puts in evidence the key advantages and disadvantages related to the use of the MTPA in the sensorless control of the synchronous reluctance machine, for both the saliency-based and the back-EMF based sensorless methods. Extensive experimental results are reported for a 2.2 kW synchronous reluctance motor prototype, showing the feasibility of the proposed method. These include speed response to step and sinusoidal load disturbances at standstill, up to 121% of rated torque, and speed response tests covering the flux weakening speed region.},
+  Doi                      = {10.1109/TIA.2017.2679689},
+  ISSN                     = {0093-9994},
+  Keywords                 = {electric potential;machine vector control;observers;reluctance motor drives;sensorless machine control;stators;torque control;sensorless direct flux vector control scheme;synchronous reluctance motor drives;standstill;MTPA;maximum torque per ampere strategy;flux weakening speed region;constant switching frequency;closed loop regulation;stator flux linkage vector;current component;stator flux oriented reference frame;hybrid flux observer;position observer;back-electromotive force integration;pulsating voltage injection;zero speed;cross-saturation position error;synchronous reluctance machine;saliency-based sensorless methods;back-EMF based sensorless methods;step load disturbances;sinusoidal load disturbances;Stators;Torque;Mathematical model;Observers;Machine vector control;Reluctance motors;Sensorless control;Cross saturation;direct flux vector control (DFVC);sensorless control;synchronous reluctance motor (SyRM);zero speed sensorless control}
+}
+
+@Article{PELS2017,
+  Title                    = {Combined Active Flux and High-Frequency Injection Methods for Sensorless Direct-Flux Vector Control of Synchronous Reluctance Machines},
+  Author                   = {A. Yousefi-Talouki and P. Pescetto and G. Pellegrino and I. Boldea},
+  Journal                  = {IEEE Transactions on Power Electronics},
+  Year                     = {2018},
+
+  Month                    = {March},
+  Number                   = {3},
+  Pages                    = {2447-2457},
+  Volume                   = {33},
+
+  Abstract                 = {This paper proposes a sensorless control scheme for synchronous reluctance (SyR) motor drives based on the direct-flux vector control (DFVC) method. The control operates in stator-flux-oriented coordinates, using constant switching frequency. A hybrid position and speed observer is proposed, based on the combination of the active flux concept and high-frequency signal injection and demodulation. The two methods are fused together to form a unique position and speed estimate signals, with seamless transition between the two models based on reference speed. The proposed observer covers a wide speed range, from standstill operation at full load to flux weakening (FW). Furthermore, it is inherently immune from position estimation error caused by cross saturation, as proven mathematically and experimentally. The motor is operated according to the maximum torque per ampere (MTPA) law. Specific issues related to MTPA around zero torque are addressed in this paper. The proposed control technique extends the range of application of the DFVC to encoderless drives, and can be usefully adopted in those applications where both zero-speed and FW speed range operations are necessary, such as home appliances, or automotive and aerospace actuators and generators. A 2.2-kW SyR motor prototype was tested to verify the feasibility of the proposed method. Key tuning aspects are addressed in this paper.},
+  Doi                      = {10.1109/TPEL.2017.2697209},
+  ISSN                     = {0885-8993},
+  Keywords                 = {angular velocity control;induction motor drives;machine vector control;magnetic flux;motor drives;observers;permanent magnet motors;position control;reluctance machines;rotors;sensorless machine control;stators;synchronous motor drives;torque control;constant switching frequency;active flux concept;high-frequency signal injection;demodulation;flux weakening;position estimation error;DFVC;high-frequency injection methods;synchronous reluctance machines;synchronous reluctance motor drives;direct-flux vector control method;stator-flux-oriented coordinates;sensorless control;SyR motor drives;direct-flux vector control;maximum torque per ampere;MTPA;Rotors;Stators;Torque;Reluctance motors;Observers;Machine vector control;Active flux;direct-flux vector control (DFVC);high-frequency (HF) injection;sensorless control;synchronous reluctance (SyR) machines}
+}
+
+

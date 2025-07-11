@@ -1,0 +1,37 @@
+\section{Design of FOC controllers} 
+
+\label{sec:FOC}
+
+This section focuses on the design of the Field-Oriented Control (FOC) system for the Synchronous Reluctance Motor (SyRM), relying on previously extracted motor parameters.
+
+\subsection{PI current controller tuning}
+
+The PI controllers for the $d$- and $q$-axis current loops are designed using a standard method based on the motor time constants:
+
+\begin{equation}
+\tau_d = \frac{L_d}{R_s}, \quad \tau_q = \frac{L_q}{R_s}
+\end{equation}
+
+Given:
+\begin{itemize}
+    \item $R_s = 0.127~\Omega$
+    \item $L_d = \texttt{TBD}~\text{H}$ \hfill \textit{\footnotesize (apparent inductance from flux map)}
+    \item $L_q = \texttt{TBD}~\text{H}$
+\end{itemize}
+
+Assuming a desired current control bandwidth $\omega_b = \dfrac{10}{\tau}$, the proportional and integral gains are:
+
+\begin{align}
+k_{p,d} &= \omega_{b,d} \cdot L_d = \texttt{TBD} \\
+k_{i,d} &= k_{p,d} \cdot \frac{\omega_{b,d}}{5} = \texttt{TBD} \\
+k_{p,q} &= \omega_{b,q} \cdot L_q = \texttt{TBD} \\
+k_{i,q} &= k_{p,q} \cdot \frac{\omega_{b,q}}{5} = \texttt{TBD}
+\end{align}
+
+These gains will be refined after initial simulations using MATLAB/Simulink.
+
+\subsection{Speed controller design}
+
+The speed loop typically uses a PI controller tuned based on the desired closed-loop bandwidth and inertia. As the mechanical parameters are not provided in this phase, this section will be completed after further data is available.
+
+\vspace{2cm} %remove it from final project

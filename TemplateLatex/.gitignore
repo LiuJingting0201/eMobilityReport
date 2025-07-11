@@ -1,0 +1,23 @@
+# LaTeX intermediate files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.gz
+
+
+
+# System/VSCode-specific
+.vscode/
+.DS_Store
+Thumbs.db

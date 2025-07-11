@@ -1,0 +1,83 @@
+\section{Simulation results}
+
+This section presents the simulation results obtained from the developed Simulink models for the DC-DC converter, motor drive under Field Oriented Control (FOC), and the integrated powertrain. The tests include operation below base speed on the MTPA trajectory and operation in the flux-weakening (FW) region.
+
+\subsection{DC-DC converter simulation}
+
+The DC-DC converter was simulated with the tuned current and voltage PI controllers. The model reproduces a start-up transient and steady-state operation.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{ExFig}
+\caption{DC-DC converter output voltage and input/output current.}
+\label{fig:DCDC_sim}
+\end{figure}
+
+The output voltage stabilizes around the desired value of \SI{480}{\volt} after a short transient. The input current ripple and voltage overshoot remain within acceptable limits.
+
+\subsection{Motor drive simulation}
+
+A first test was carried out by commanding a ramp torque reference (from 0 to $T_{\max}$) below the base speed, following the MTPA trajectory.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{ExFig}
+\caption{MTPA operation: torque reference and measured torque.}
+\label{fig:MTPA_sim}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{ExFig}
+\caption{MTPA operation: current reference and measured current.}
+\label{fig:MTPA_current}
+\end{figure}
+
+As seen in Fig.~\ref{fig:MTPA_sim}, the reference torque is accurately tracked up to approximately \SI{3406}{rpm}. Slight deviations are attributed to flux map approximation and controller dynamics.
+
+\subsection{Operation in FW region}
+
+The FW test was performed by manually setting a current vector ($i_d^\ast$, $i_q^\ast$) beyond base speed. The performance was evaluated in terms of achievable torque and speed tracking.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{ExFig}
+\caption{Field Weakening: Reference and output torque.}
+\label{fig:FW_torque}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{ExFig}
+\caption{Field Weakening: Mechanical speed.}
+\label{fig:FW_speed}
+\end{figure}
+
+The results confirm a reduction in torque output above base speed, consistent with FW operation. The controller remains stable, although with decreased dynamic performance due to reduced inductance and voltage limitations.
+
+\subsection{Integrated system simulation}
+
+Finally, the complete system, including DC-DC converter, inverter, and SyR motor, was simulated under a representative operating point.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{ExFig}
+\caption{Full system: DC-link voltage.}
+\label{fig:full_dc}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{ExFig}
+\caption{Full system: Reference and measured torque.}
+\label{fig:full_torque}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{ExFig}
+\caption{Full system: Mechanical speed.}
+\label{fig:full_speed}
+\end{figure}
+
+The simulation validates the overall powertrain behavior under integrated operation. The DC-link voltage remains stable, and the motor torque output aligns with the reference values under both base and FW regimes.
